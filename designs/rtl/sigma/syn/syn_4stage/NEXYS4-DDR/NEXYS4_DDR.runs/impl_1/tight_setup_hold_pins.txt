@@ -1,0 +1,12 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                            sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_alu_op1_wide_genglbl_reg[32]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                            sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_alu_op2_wide_genglbl_reg[32]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                                        sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_rs2_rdata_reg[5]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                                        sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_rs2_rdata_reg[3]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                               sigma/sigma_tile/riscv/gensticky_genpstage_MEMWB_rd_wdata_genglbl_reg[12]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                                       sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_rs2_rdata_reg[16]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                                       sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_rs2_rdata_reg[12]/D|
+|       clk_out1_sys_clk_1 |         clk_out1_sys_clk |                             sigma/sigma_tile/riscv/gensticky_genpstage_EXEC_alu_op2_wide_genglbl_reg[3]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

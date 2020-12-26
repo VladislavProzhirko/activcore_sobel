@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 20 19:44:28 2020
+# Process ID: 8916
+# Current directory: F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6556 F:\Vivado\Downloads\Spec_sobel\activecore\designs\rtl\sigma\syn\syn_1stage\NEXYS4-DDR\NEXYS4_DDR.xpr
+# Log file: F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/vivado.log
+# Journal file: F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/NEXYS4_DDR.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_simulation
+open_wave_config F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/riscv_tb_behav1.wcfg
+source riscv_tb.tcl
+close_sim
+launch_simulation
+open_wave_config F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/riscv_tb_behav1.wcfg
+source riscv_tb.tcl
+restart
+run all
+save_wave_config {F:/Vivado/Downloads/Spec_sobel/activecore/designs/rtl/sigma/syn/syn_1stage/NEXYS4-DDR/riscv_tb_behav1.wcfg}
+close_sim
